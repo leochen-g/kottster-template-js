@@ -12,7 +12,7 @@ COPY . .
 
 RUN npm run build
 
-
+ENV NODE_ENV=production
 ENV VITE_DOCKER_MODE=true
 ENV PORT=5480
 ENV DEV_API_SERVER_PORT=5481
