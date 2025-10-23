@@ -6,7 +6,7 @@ RUN apk add --no-cache git tini
 
 COPY package.json ./
 
-RUN npm install --no-optional
+RUN npm install
 
 COPY . .
 
